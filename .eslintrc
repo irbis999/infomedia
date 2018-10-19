@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jquery": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "codeFrame": false
+  },
+  "globals" : {
+    "axios": true,
+    "_get": true
+  },
+  "rules": {
+    "semi": ["warn", "never"],
+    "comma-dangle": ["warn", "always-multiline"]
+  }
+}

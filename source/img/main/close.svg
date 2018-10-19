@@ -1,0 +1,20 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="72px" height="72px">
+    <defs>
+        <linearGradient id="PSgrad_0" x1="0%" x2="89.879%" y1="43.837%" y2="0%">
+            <stop offset="0%" stop-color="rgb(99,51,137)" stop-opacity="1" />
+            <stop offset="100%" stop-color="rgb(193,32,119)" stop-opacity="1" />
+        </linearGradient>
+
+    </defs>
+    <path fill-rule="evenodd"  fill="rgb(219, 56, 50)"
+          d="M35.016,0.969 C54.354,0.969 70.031,16.646 70.031,35.984 C70.031,55.323 54.354,71.000 35.016,71.000 C15.677,71.000 0.000,55.323 0.000,35.984 C0.000,16.646 15.677,0.969 35.016,0.969 Z"/>
+    <path fill="url(#PSgrad_0)"
+          d="M35.016,0.969 C54.354,0.969 70.031,16.646 70.031,35.984 C70.031,55.323 54.354,71.000 35.016,71.000 C15.677,71.000 0.000,55.323 0.000,35.984 C0.000,16.646 15.677,0.969 35.016,0.969 Z"/>
+    <path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+          d="M50.018,20.307 L21.000,49.328 "/>
+    <path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="2px" stroke-linecap="butt" stroke-linejoin="miter" fill="none"
+          d="M21.215,20.525 L50.473,49.787 "/>
+</svg>

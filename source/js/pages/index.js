@@ -25,7 +25,9 @@ class Page {
     })
 
     this.bgGallery()
-    setInterval(() => this.bgGallery.bind(this), this.time * 3 + 2000)
+    setInterval(() => {
+      this.bgGallery()
+    }, this.time * 3 + 2000)
 
     //Отправка формы
     this.elem.find("form.wrapper").ajaxForm({

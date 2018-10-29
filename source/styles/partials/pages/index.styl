@@ -29,11 +29,11 @@ section.main.index
       &.__transparent
         opacity 0
       &.__1
-        background-image image-url('main/bg-1.jpg?ver=1')
+        background-image image-url('main/bg-1.png?ver=1')
       &.__2
-        background-image image-url('main/bg-2.jpg?ver=1')
+        background-image image-url('main/bg-2.png?ver=1')
       &.__3
-        background-image image-url('main/bg-3.jpg?ver=1')
+        background-image image-url('main/bg-3.png?ver=1')
     //Круг
     .circle
       width 215px
@@ -41,7 +41,7 @@ section.main.index
       position absolute
       left 50%
       top 50%
-      margin -54px 0 0 -105px
+      margin -53px 0 0 -106px
       background white
       border-radius 50%
       text-align center
@@ -84,6 +84,7 @@ section.main.index
           top 10px
           z-index 2
           display inline-block
+          background top center / contain no-repeat image-url('main/close.svg?ver=1')
         .thanx
           width 215px
           font-size 1.1em
@@ -136,50 +137,64 @@ section.main.index
       .bg
         background no-repeat 50% 0
         &.__1
-          background-image image-url('main/bg-desktop-1.jpg?ver=2')
+          background-image image-url('main/bg-desktop-1.png?ver=1')
         &.__2
-          background-image image-url('main/bg-desktop-2.jpg?ver=2')
+          background-image image-url('main/bg-desktop-2.png?ver=1')
         &.__3
-          background-image image-url('main/bg-desktop-3.jpg?ver=2')
+          background-image image-url('main/bg-desktop-3.png?ver=1')
       //Круг
       .circle
-        width 260px
+        width 328px
         height @width
-        margin -130px 0 0 -125px
+        margin -160px 0 0 -160px
         .logo
-          width 176px
-          height 32px
-          margin 85px 0 10px 0
+          width 259px
+          height 50px
+          margin 120px 0 10px 0
         .phone
-          font-size 1.2em
+          font-size 1.45em
         .mail
-          font-size 1.2em
+          font-size 1.45em
         //Открытый круг
         &.__active
-          width 760px
+          width 900px
           height @width
-          margin -380px 0 0 -375px
+          margin -455px 0 0 -442px
           padding-top 70px
           .close
-            width 42px
+            width 50px
             height @width
-            left 660px
+            left 763px
             top 130px
+            &::before
+              opacity 0
+              content ''
+              position absolute
+              left -1px
+              top -1px
+              width calc(100% + 2px)
+              height calc(100% + 2px)
+              z-index 1
+              background top center / contain no-repeat image-url('main/close-hover.svg?ver=2')
+              transition opacity .3s
+            &:hover
+              &::before
+                opacity 1
           .thanx
-            width 260px
+            width 306px
             margin-top 4em
-            font-size 1.2em
+            font-size 1.45em
           .form
             margin-top 6em
-            width 260px
+            width 316px
             .form-group
-              margin-bottom 1em
+              margin-bottom 1.2em
               .form-input
-                font-size 1em
+                font-size 1.15em
       .button
-        font-size 1em
-        width 260px
-        margin 200px 0 0 -130px
+        font-size 1.15em
+        width 306px
+        margin 210px 0 0 -150px
         background-repeat no-repeat
         background-position 0
         position relative

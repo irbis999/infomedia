@@ -1,30 +1,34 @@
-extends layout/layout
+extends templates/layout/layout
 
 block body
   section.main.index
-    form.wrapper
+    form.wrapper(method="post",
+    action="send.php")
       .bg.__1
       .bg.__2.__transparent
       .bg.__3.__transparent
       .circle
-        img.close(src='../build/img/main/close.svg')
-        img.logo(src='../build/img/main/logo.svg')
+        .close
+        img.logo(src='/build/img/main/logo.svg?ver=1')
         .phone +7 495 125 80 20
         a.mail(href='mailto:info@infomedia.digital') info@infomedia.digital
         .thanx Спасибо! <br> Ваше сообщение отправлено
         .form
           .form-group
             input.form-input(placeholder="Ваше имя",
-            required)
+            required,
+            name="name")
             .form-line
           .form-group
             input.form-input(placeholder="email",
             type="email",
-            required)
+            required,
+            name="email")
             .form-line
           .form-group
             input.form-input(placeholder="Сообщение для нас",
-            required)
+            required,
+            name="message")
             .form-line
       button.button(data-ready-text="Отправить",
       data-default-text="Отправить сообщение")

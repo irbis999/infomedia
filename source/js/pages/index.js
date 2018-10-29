@@ -2,6 +2,7 @@ import "jquery-form"
 
 class Page {
   constructor(options) {
+    //return
     this.elem = options.elem
     this.circleElem = this.elem.find(".circle")
     this.buttonElem = this.elem.find(".button")

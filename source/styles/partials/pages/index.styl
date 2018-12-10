@@ -215,5 +215,26 @@ section.main.index
         &:hover
           &::before
             opacity 1
-
+  large_mixin()
+    .wrapper
+      width 2560px
+      height 1440px
+      margin -720px 0 0 -1280px
+      .bg
+        &.__1
+          background-image image-url('main/bg-desktop-1-large.png?ver=1')
+        &.__2
+          background-image image-url('main/bg-desktop-2-large.png?ver=1')
+        &.__3
+          background-image image-url('main/bg-desktop-3-large.png?ver=1')
+      .circle
+        margin-top -100px
+        &.__active
+          margin-top -370px
+      .button
+        margin-top 260px
+  @media (min-height 1080px)
+    large_mixin()
+  @media (min-width 1920px)
+    large_mixin()
 

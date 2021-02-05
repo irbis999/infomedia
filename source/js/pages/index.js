@@ -2,6 +2,7 @@ import "jquery-form"
 
 class Page {
   constructor(options) {
+    //return
     this.elem = options.elem
     this.circleElem = this.elem.find(".circle")
     this.buttonElem = this.elem.find(".button")
@@ -25,7 +26,9 @@ class Page {
     })
 
     this.bgGallery()
-    setInterval(() => this.bgGallery.bind(this), this.time * 3 + 2000)
+    setInterval(() => {
+      this.bgGallery()
+    }, this.time * 3 + 2000)
 
     //Отправка формы
     this.elem.find("form.wrapper").ajaxForm({

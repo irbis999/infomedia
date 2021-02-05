@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>close-hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100.279433%" y1="50%" x2="-0.040070922%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#A14AD1" offset="0%"></stop>
+            <stop stop-color="#AF1F7B" offset="99.87%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="close-hover">
+            <g id="Group-2">
+                <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="14.7" cy="14.7" r="14.1"></circle>
+                <g id="Group" transform="translate(7.000000, 7.000000)" stroke="#FFFFFF">
+                    <path d="M0.9,0.9 L14.4,14.4" id="Shape"></path>
+                    <path d="M0.9,14.4 L14.4,0.9" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

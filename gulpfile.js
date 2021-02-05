@@ -113,5 +113,5 @@ gulp.task("html", function (done) {
   //Сохраняем шаблон
   fs.writeFileSync(layoutPath, layout)
   //Собираем
-  run("pug templates/").exec()
+  run("pug index.pug").exec()
 })
